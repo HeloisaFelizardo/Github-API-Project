@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Page</title>
+	</head>
+	<body>
+		<nav id="navbar">
+			<a href="" class="nav-brand">App</a>
+			<ul>
+				<li class="nav-item"><a href="about.html">About us</a></li>
+				<li><a href="" class="nav-item btn btn-default">Register</a></li>
+			</ul>
+		</nav>
+
+		<div class="container" id="main">
+			<h1>GitHub repos</h1>
+			<form id="repos-form">
+				<label for="github-username">GitHub username</label>
+				<input id="github-username" type="text" placeholder="GitHub username" />
+				<button type="submit" id="get-repos" class="btn btn-default">Get repos</button>
+			</form>
+			<ul id="repos-list"></ul>
+		</div>
+
+		<footer id="footer-wrapper">
+			<a href="about.html" target="_blank">About us</a>
+			<a href="contact.html" target="_blank">Contact us</a>
+		</footer>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>

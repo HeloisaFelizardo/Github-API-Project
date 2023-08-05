@@ -5,11 +5,12 @@
 	--white: #fff;
 	--black: #000;
 
-	--primary-1: #c47e35;
-	--primary-2: #dca15d;
-	--primary-3: #dabb94;
-	--primary-4: #f3dabc;
-	--primary-5: #faf1e5;
+	--primary-1: #002059;
+	--primary-2: #003696;
+	--primary-3: #0557e8;
+	--primary-4: #169dff;
+	--primary-5: #62c6ff;
+	--primary-6: #99e7ff;
 
 	--neutral-1: #2c2c2c;
 	--neutral-2: #434343;
@@ -17,7 +18,7 @@
 	--neutral-4: #d9cfd3;
 	--neutral-5: #f2ecee;
 
-	--accent-1: #458179;
+	--accent-1: #62c6ff;
 	--accent-2: #4da296;
 	--accent-3: #8dd8cf;
 	--accent-4: #92cfc7;
@@ -27,13 +28,14 @@
 body {
 	margin: 0;
 	background-color: var(--neutral-5);
-	/* font-family: 'Roboto', sans-serif; */
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	/* 	font-family: 'Montserrat', sans-serif; */
 }
 
 h1 {
 	margin: 50px 0 30px 0;
 	font-weight: 400;
+	color: var(--primary-2);
 }
 h2 {
 	font-weight: 700;
@@ -75,7 +77,7 @@ button.btn {
 
 .btn-default {
 	color: var(--white);
-	background-color: var(--primary-1);
+	background-color: var(--primary-2);
 }
 
 .btn-outline {
@@ -91,17 +93,17 @@ button.btn {
 }
 
 .btn-default:hover:not(:disabled) {
-	background-color: var(--primary-2);
+	background-color: var(--primary-3);
 	color: white;
 }
 
 .btn-outline:hover:not(:disabled) {
-	background-color: var(--primary-3);
+	background-color: var(--primary-4);
 }
 
 .btn-default:active {
-	color: var(--primary-1);
-	background-color: var(--primary-3);
+	color: var(--primary-2);
+	background-color: var(--primary-4);
 }
 
 .btn:disabled {
@@ -138,7 +140,7 @@ button.btn {
 .nav-item a {
 	text-decoration: none;
 	font-weight: 700;
-	color: var(--primary-1);
+	color: var(--primary-2);
 	display: block;
 	text-align: center;
 	padding: 13px 20px;
@@ -146,7 +148,7 @@ button.btn {
 
 .nav-item:hover a {
 	text-decoration: none;
-	color: var(--primary-2);
+	color: var(--primary-3);
 }
 
 .form h2 {
@@ -301,10 +303,11 @@ button {
 	margin: 15px 0;
 	border-radius: 3px;
 	transition: opacity 150ms ease-out;
-	opacity: 0.85;
+	opacity: 0.75;
 }
 #repos-list li:hover {
 	opacity: 1;
+	color: var(--primary-1);
 }
 #repos-list h2 {
 	margin-top: 0;

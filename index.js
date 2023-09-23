@@ -80,7 +80,7 @@ const render = (username) => {
 			});
 		})
 		.catch((error) => console.log(error)) // Handling errors
-		.finally(() => stopLoader(button, 'Get Repos')); // Stopping loader and updating button text
+		.finally(() => stopLoader(button, 'Buscar')); // Stopping loader and updating button text
 };
 
 // Adding an event listener to the form for username submission

@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/x-icon" href="icons-github.ico" />
 		<link rel="stylesheet" href="index.css" />
-		<title>Page</title>
+		<title>GitHub API Search</title>
 	</head>
 	<body>
 		<nav id="navbar">
-			<a href="#" class="nav-brand">App</a>
+			<a href="#" class="nav-brand">GitHub API Search</a>
 			<ul>
 				<li class="nav-item"><a href="#">About us</a></li>
 				<li><a href="#" class="nav-item btn btn-default">Register</a></li>
@@ -16,11 +17,11 @@
 		</nav>
 
 		<div class="container" id="main">
-			<h1>GitHub repos</h1>
+			<h1>Por favor, insira o nome do repositório que deseja pesquisar no campo abaixo:</h1>
 			<form id="repos-form">
 				<label for="github-username">GitHub username</label>
 				<input id="github-username" type="text" placeholder="GitHub username" />
-				<button type="submit" id="get-repos" class="btn btn-default">Get repos</button>
+				<button type="submit" id="get-repos" class="btn btn-default">Buscar Repositório</button>
 			</form>
 			<ul id="repos-list"></ul>
 		</div>
